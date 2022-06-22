@@ -15,15 +15,15 @@
         @csrf
             <div class="formularioRow">
                 <label for="nombre">Nombre: </label>
-                <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre" required maxlength="100">
             </div>
             <div class="formularioRow">
                 <label for="apellidoP">Apellido Paterno:</label>
-                <input type="text" id="apellidoP" name="apellidoP" placeholder="Apellido Paterno">
+                <input type="text" id="apellidoP" name="apellidoP" placeholder="Apellido Paterno" required maxlength="100">
             </div>
             <div class="formularioRow"> 
                 <label for="apellidoM">Apellido Materno:</label>
-                <input type="text" id="apellidoM" name="apellidoM" placeholder="Apellido Materno">
+                <input type="text" id="apellidoM" name="apellidoM" placeholder="Apellido Materno" required maxlength="100">
             </div>
             <button type="submit" id="btnform">Guardar</button>
         </form>
